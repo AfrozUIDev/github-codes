@@ -7,7 +7,8 @@ Git codes
 * git push -u origin master
 
 * git reset . =>
-* git checkout -- ID of commit (will get it from "git log--all" and use to go to previous version)
+* git checkout branchName => (it will change the github branch)
+* git checkout -- ID of commit (will get it from "git log --all" and use to go to previous version)
 * git log => (use to know all previous history)
 * press "q" to close git log
 * git log --all --graph => (it will show the branching effect or structure)
@@ -20,6 +21,7 @@ Git codes
 * git push origin master -f => (-f = force push)
 * git push origin master --set-upstream => (it will make shortcut to push the code type only "git push")
 * git pull origin master --set-upstream => (it will make shortcut to pull the code type only "git pull")
+* git branch name => (it will create new online branch in github)
 * .gitignore => (put this as file in folder it will not show in github site it will keep it as secret)
 
 ** pushing updated from github to local
