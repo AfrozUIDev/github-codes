@@ -10,6 +10,7 @@ Git codes
 * git commit -m "version 1" --amend => (it will add new code before pushing if we miss anything)
 * git remote add origin "//repo link" => (one time only it will add online repo to local repo "remote = refers to things that are online")
 * git push -u origin master
+* git checkout -b new-branch-name => (Create and switch to a new branch)
 
 * git reset . =>
 * git checkout branchName => (it will change the github branch)
@@ -21,6 +22,8 @@ Git codes
 * git config --global alias.cm "commit -m" => (we can use this to create shortcut)
 * git config --global alias.co "checkout" => (we can use this to create shortcut)
 * rm -rf .git => (it will remove all git command)
+* git branch -D branch-name => (delete branch from local)
+* git push origin --delete new-name => (delete branch from github)
 * git remote -v => (Verbose - give more details)
 * git remote remove origin => (use to remove remote repo link with local repo)
 * git push origin master -f => (-f = force push)
@@ -29,6 +32,12 @@ Git codes
 * git branch name => (it will create new online branch in github)
 * git merge fileName -m "message"=> (1st we should switch to master branch the which file have to merge give its name)
 * .gitignore => (put this as file in folder it will not show in github site it will keep it as secret)
+
+**Rename github brach
+* git checkout master
+* git branch => (will show all branche in master)
+* git brach -m old-name new-name
+* git push origin :old-name new-name
 
 ** pushing updated from github to local
 * git clone URL folder-name
