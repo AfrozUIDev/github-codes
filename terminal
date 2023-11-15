@@ -1,0 +1,928 @@
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git init
+Initialized empty Git repository in C:/Users/AFROZ/OneDrive/Desktop/Github-codes/.git/
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git add .
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Git-Branching and Mergin.txt
+
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git commit -m "Branching & Merging"  
+[master (root-commit) 265a486] Branching & Merging
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Git-Branching and Mergin.txt
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git remote add origin https://github.com/AfrozUIDev/github-codes.git
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 245 bytes | 245.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/AfrozUIDev/github-codes.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git add .
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git commit-m "git codes"
+git: 'commit-m' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit-tree
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git push -u origin master
+Everything up-to-date
+branch 'master' set up to track 'origin/master'.
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   github-cheets.txt
+
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git push origin master   
+Everything up-to-date
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   github-cheets.txt
+
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --all --graph
+* commit 265a486cf8852d93431394713699604b455c0a35 (HEAD -> master, origin/master)
+  Author: AfrozUIDev <afrozmulla020@gmail.com>
+  Date:   Tue Nov 14 15:27:19 2023 +0530
+
+      Branching & Merging
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git add .
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   github-cheets.txt
+
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git commit -m "github codes"
+[master d5eb002] github codes
+ 1 file changed, 74 insertions(+)
+ create mode 100644 github-cheets.txt
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.36 KiB | 1.36 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/AfrozUIDev/github-codes.git
+   265a486..d5eb002  master -> master
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git add .
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git commit -m "Branching & Merging"
+[master 0f343e4] Branching & Merging
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename Git-Branching and Mergin.txt => github-Branching and Mergin.txt (100%)
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 300 bytes | 300.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/AfrozUIDev/github-codes.git
+   d5eb002..0f343e4  master -> master
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git add .
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git commit -m "version1"
+[master 321fa0b] version1
+ 1 file changed, 1 insertion(+)
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git add .
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git commit -m "version2"
+[master 26e61cf] version2
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git add .
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git commit -m "version3"
+[master 5aebec4] version3
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --log --graph
+fatal: unrecognized argument: --log
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --all --graph
+* commit 5aebec45ac66d3ef57b69869ed31ca9220392b77 (HEAD -> master)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 20:31:03 2023 +0530
+|
+|     version3
+|
+* commit 26e61cf5b0b33193d4bf66a465de9fe705c66468
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 20:30:19 2023 +0530
+|
+|     version2
+|
+* commit 321fa0b56729f947f9b1a9f5c673fcb4882b4a42
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 20:29:59 2023 +0530
+|
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git branch feature1
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --all --graph
+* commit 5aebec45ac66d3ef57b69869ed31ca9220392b77 (HEAD -> master, feature1)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 20:31:03 2023 +0530
+|
+|     version3
+|
+* commit 26e61cf5b0b33193d4bf66a465de9fe705c66468
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 20:30:19 2023 +0530
+|
+|     version2
+|
+* commit 321fa0b56729f947f9b1a9f5c673fcb4882b4a42
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 20:29:59 2023 +0530
+|
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git checkout feature1
+Switched to branch 'feature1'
+M       github-cheets.txt
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --all --graph
+* commit 5aebec45ac66d3ef57b69869ed31ca9220392b77 (HEAD -> feature1, master)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 20:31:03 2023 +0530
+|
+|     version3
+|
+* commit 26e61cf5b0b33193d4bf66a465de9fe705c66468
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 20:30:19 2023 +0530
+|
+|     version2
+|
+* commit 321fa0b56729f947f9b1a9f5c673fcb4882b4a42
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 20:29:59 2023 +0530
+|
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git add .
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git commit -m "feature commit1" 
+[feature1 264f25f] feature commit1
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+ create mode 100644 feature
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --all --graph
+* commit 264f25f53d78120b87838ec708344e03fed3a10b (HEAD -> feature1)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 20:40:09 2023 +0530
+|
+|     feature commit1
+|
+* commit 5aebec45ac66d3ef57b69869ed31ca9220392b77 (master)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 20:31:03 2023 +0530
+|
+|     version3
+|
+* commit 26e61cf5b0b33193d4bf66a465de9fe705c66468
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 20:30:19 2023 +0530
+|
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git add .
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git commit -m "feature commit2"
+On branch feature1
+nothing to commit, working tree clean
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --all --graph
+* commit 264f25f53d78120b87838ec708344e03fed3a10b (HEAD -> feature1)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 20:40:09 2023 +0530
+|
+|     feature commit1
+|
+* commit 5aebec45ac66d3ef57b69869ed31ca9220392b77 (master)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 20:31:03 2023 +0530
+|
+|     version3
+|
+* commit 26e61cf5b0b33193d4bf66a465de9fe705c66468
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 20:30:19 2023 +0530
+|
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --all --graph
+* commit 264f25f53d78120b87838ec708344e03fed3a10b (HEAD -> feature1)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 20:40:09 2023 +0530
+|
+|     feature commit1
+|
+* commit 5aebec45ac66d3ef57b69869ed31ca9220392b77 (master)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 20:31:03 2023 +0530
+|
+|     version3
+|
+* commit 26e61cf5b0b33193d4bf66a465de9fe705c66468
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 20:30:19 2023 +0530
+|
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --all --graph
+* commit 264f25f53d78120b87838ec708344e03fed3a10b (feature1)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 20:40:09 2023 +0530
+|
+|     feature commit1
+|
+* commit 5aebec45ac66d3ef57b69869ed31ca9220392b77 (HEAD -> master)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 20:31:03 2023 +0530
+|
+|     version3
+|
+* commit 26e61cf5b0b33193d4bf66a465de9fe705c66468
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 20:30:19 2023 +0530
+|
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --all --graph
+* commit 264f25f53d78120b87838ec708344e03fed3a10b (feature1)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 20:40:09 2023 +0530
+|
+|     feature commit1
+|
+* commit 5aebec45ac66d3ef57b69869ed31ca9220392b77 (HEAD -> master)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 20:31:03 2023 +0530
+|
+|     version3
+|
+* commit 26e61cf5b0b33193d4bf66a465de9fe705c66468
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 20:30:19 2023 +0530
+|
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git add .
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git commit -m "bug fix"
+[master 63caf41] bug fix
+ 2 files changed, 1 insertion(+)
+ create mode 100644 bugfix
+ rename github-Branching and Mergin.txt => hello (100%)
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --all --graph
+* commit 63caf415762908422a9c90d36a88ae8d3558e047 (HEAD -> master)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 21:36:24 2023 +0530
+|
+|     bug fix
+|
+| * commit 264f25f53d78120b87838ec708344e03fed3a10b (feature1)
+|/  Author: AfrozUIDev <afrozmulla020@gmail.com>
+|   Date:   Tue Nov 14 20:40:09 2023 +0530
+|
+|       feature commit1
+|
+* commit 5aebec45ac66d3ef57b69869ed31ca9220392b77
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 20:31:03 2023 +0530
+|
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git checkout feature1
+Switched to branch 'feature1'
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --all --graph
+* commit 63caf415762908422a9c90d36a88ae8d3558e047 (master)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 21:36:24 2023 +0530
+|
+|     bug fix
+|
+| * commit 264f25f53d78120b87838ec708344e03fed3a10b (HEAD -> feature1)
+|/  Author: AfrozUIDev <afrozmulla020@gmail.com>
+|   Date:   Tue Nov 14 20:40:09 2023 +0530
+|
+|       feature commit1
+|
+* commit 5aebec45ac66d3ef57b69869ed31ca9220392b77
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 20:31:03 2023 +0530
+|
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git add .
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git commit -m "feature done"
+[feature1 d192c44] feature done
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --all --graph
+* commit d192c4446d1c0fae305d61f3bbba45a1841980af (HEAD -> feature1)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 21:40:30 2023 +0530
+|
+|     feature done
+|
+* commit 264f25f53d78120b87838ec708344e03fed3a10b
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 20:40:09 2023 +0530
+|
+|     feature commit1
+|
+| * commit 63caf415762908422a9c90d36a88ae8d3558e047 (master)
+|/  Author: AfrozUIDev <afrozmulla020@gmail.com>
+|   Date:   Tue Nov 14 21:36:24 2023 +0530
+|
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --all --graph
+* commit d192c4446d1c0fae305d61f3bbba45a1841980af (feature1)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 21:40:30 2023 +0530
+|
+|     feature done
+|
+* commit 264f25f53d78120b87838ec708344e03fed3a10b
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 20:40:09 2023 +0530
+|
+|     feature commit1
+|
+| * commit 63caf415762908422a9c90d36a88ae8d3558e047 (HEAD -> master)
+|/  Author: AfrozUIDev <afrozmulla020@gmail.com>
+|   Date:   Tue Nov 14 21:36:24 2023 +0530
+|
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git merge feature1 -m "merger feature1 in master"
+error: Your local changes to the following files would be overwritten by merge:
+        github-cheets.txt
+Please commit your changes or stash them before you merge.
+Aborting
+Merge with strategy ort failed.
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --all --graph
+* commit d192c4446d1c0fae305d61f3bbba45a1841980af (feature1)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 21:40:30 2023 +0530
+|
+|     feature done
+|
+* commit 264f25f53d78120b87838ec708344e03fed3a10b
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 20:40:09 2023 +0530
+|
+|     feature commit1
+|
+| * commit 63caf415762908422a9c90d36a88ae8d3558e047 (HEAD -> master)
+|/  Author: AfrozUIDev <afrozmulla020@gmail.com>
+|   Date:   Tue Nov 14 21:36:24 2023 +0530
+|
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git add .
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git commit -m "github cheets updated"
+[master 326f965] github cheets updated
+ 1 file changed, 1 insertion(+)
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git merge feature1 -m "merger feature1 in master"
+Auto-merging github-cheets.txt
+CONFLICT (content): Merge conflict in github-cheets.txt
+Automatic merge failed; fix conflicts and then commit the result.
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --all --graph
+* commit 326f965436445d4532a41a7a7d5575c514e5afc8 (HEAD -> master)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 21:59:25 2023 +0530
+|
+|     github cheets updated
+|
+* commit 63caf415762908422a9c90d36a88ae8d3558e047
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 21:36:24 2023 +0530
+|
+|     bug fix
+|
+| * commit d192c4446d1c0fae305d61f3bbba45a1841980af (feature1)
+| | Author: AfrozUIDev <afrozmulla020@gmail.com>
+| | Date:   Tue Nov 14 21:40:30 2023 +0530
+| |
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git checkout feature1
+error: you need to resolve your current index first
+github-cheets.txt: needs merge
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git checkout master  
+Already on 'master'
+A       feature
+M       github-cheets.txt
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git checkout feature1
+error: Your local changes to the following files would be overwritten by checkout:
+        github-cheets.txt
+Please commit your changes or stash them before you switch branches.
+Aborting
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --all --graph
+* commit 326f965436445d4532a41a7a7d5575c514e5afc8 (HEAD -> master)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 21:59:25 2023 +0530
+|
+|     github cheets updated
+|
+* commit 63caf415762908422a9c90d36a88ae8d3558e047
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 21:36:24 2023 +0530
+|
+|     bug fix
+|
+| * commit d192c4446d1c0fae305d61f3bbba45a1841980af (feature1)
+| | Author: AfrozUIDev <afrozmulla020@gmail.com>
+| | Date:   Tue Nov 14 21:40:30 2023 +0530
+| |
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git add .
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git commit -m "github cheets updated"
+[master 21697dd] github cheets updated
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+ create mode 100644 feature
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --all --graph
+* commit 21697dd061721eb3380f912dd8ee6187d129f8f7 (HEAD -> master)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 22:04:09 2023 +0530
+|
+|     github cheets updated
+|
+* commit 326f965436445d4532a41a7a7d5575c514e5afc8
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 21:59:25 2023 +0530
+|
+|     github cheets updated
+|
+* commit 63caf415762908422a9c90d36a88ae8d3558e047
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 21:36:24 2023 +0530
+|
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git checkout feature1
+Switched to branch 'feature1'
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 6 commits.
+  (use "git push" to publish your local commits)
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git merge feature1 -m "merger feature1 in master"
+Auto-merging github-cheets.txt
+CONFLICT (content): Merge conflict in github-cheets.txt
+Automatic merge failed; fix conflicts and then commit the result.
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git add .
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git commit -m "all"
+[master 7bb01cc] all
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --all --graph
+*   commit 7bb01cc3b9465ff1e36162a741ee48a138e4f664 (HEAD -> master)
+|\  Merge: 21697dd d192c44
+| | Author: AfrozUIDev <afrozmulla020@gmail.com>
+| | Date:   Tue Nov 14 22:39:23 2023 +0530
+| |
+| |     all
+| |
+| * commit d192c4446d1c0fae305d61f3bbba45a1841980af (feature1)
+| | Author: AfrozUIDev <afrozmulla020@gmail.com>
+| | Date:   Tue Nov 14 21:40:30 2023 +0530
+| |
+| |     feature done
+| |
+| * commit 264f25f53d78120b87838ec708344e03fed3a10b
+| | Author: AfrozUIDev <afrozmulla020@gmail.com>
+| | Date:   Tue Nov 14 20:40:09 2023 +0530
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git branch new-feature
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --all --graph 
+*   commit 7bb01cc3b9465ff1e36162a741ee48a138e4f664 (HEAD -> master, new-feature)
+|\  Merge: 21697dd d192c44
+| | Author: AfrozUIDev <afrozmulla020@gmail.com>
+| | Date:   Tue Nov 14 22:39:23 2023 +0530
+| |
+| |     all
+| |
+| * commit d192c4446d1c0fae305d61f3bbba45a1841980af (feature1)
+| | Author: AfrozUIDev <afrozmulla020@gmail.com>
+| | Date:   Tue Nov 14 21:40:30 2023 +0530
+| |
+| |     feature done
+| |
+| * commit 264f25f53d78120b87838ec708344e03fed3a10b
+| | Author: AfrozUIDev <afrozmulla020@gmail.com>
+| | Date:   Tue Nov 14 20:40:09 2023 +0530
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git checkout .\new-feature
+error: pathspec '.\new-feature' did not match any file(s) known to git
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git checkout new-feature
+Switched to branch 'new-feature'
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --all --graph     
+*   commit 7bb01cc3b9465ff1e36162a741ee48a138e4f664 (HEAD -> new-feature, master)
+|\  Merge: 21697dd d192c44
+| | Author: AfrozUIDev <afrozmulla020@gmail.com>
+| | Date:   Tue Nov 14 22:39:23 2023 +0530
+| |
+| |     all
+| |
+| * commit d192c4446d1c0fae305d61f3bbba45a1841980af (feature1)
+| | Author: AfrozUIDev <afrozmulla020@gmail.com>
+| | Date:   Tue Nov 14 21:40:30 2023 +0530
+| |
+| |     feature done
+| |
+| * commit 264f25f53d78120b87838ec708344e03fed3a10b
+| | Author: AfrozUIDev <afrozmulla020@gmail.com>
+| | Date:   Tue Nov 14 20:40:09 2023 +0530
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git add .
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git commit -m "new feature"
+[new-feature fe04c60] new feature
+ 1 file changed, 1 insertion(+)
+ create mode 100644 new-feature
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 9 commits.
+  (use "git push" to publish your local commits)
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --all --graph
+* commit fe04c60d6f567367d2330399d7265ad954baa50e (new-feature)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 22:41:42 2023 +0530
+|
+|     new feature
+|
+*   commit 7bb01cc3b9465ff1e36162a741ee48a138e4f664 (HEAD -> master)
+|\  Merge: 21697dd d192c44
+| | Author: AfrozUIDev <afrozmulla020@gmail.com>
+| | Date:   Tue Nov 14 22:39:23 2023 +0530
+| |
+| |     all
+| |
+| * commit d192c4446d1c0fae305d61f3bbba45a1841980af (feature1)
+| | Author: AfrozUIDev <afrozmulla020@gmail.com>
+| | Date:   Tue Nov 14 21:40:30 2023 +0530
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git push origin master
+fatal: unable to access 'https://github.com/AfrozUIDev/github-codes.git/': Could not resolve host: github.com
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git remote add origin https://github.com/AfrozUIDev/github-codes.git
+error: remote origin already exists.
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git push -u origin master
+fatal: unable to access 'https://github.com/AfrozUIDev/github-codes.git/': Could not resolve host: github.com
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --log --graph
+fatal: unrecognized argument: --log
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --all --graph
+* commit fe04c60d6f567367d2330399d7265ad954baa50e (new-feature)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 22:41:42 2023 +0530
+|
+|     new feature
+|
+*   commit 7bb01cc3b9465ff1e36162a741ee48a138e4f664 (HEAD -> master)
+|\  Merge: 21697dd d192c44
+| | Author: AfrozUIDev <afrozmulla020@gmail.com>
+| | Date:   Tue Nov 14 22:39:23 2023 +0530
+| |
+| |     all
+| |
+| * commit d192c4446d1c0fae305d61f3bbba45a1841980af (feature1)
+| | Author: AfrozUIDev <afrozmulla020@gmail.com>
+| | Date:   Tue Nov 14 21:40:30 2023 +0530
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git add .
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git commit -m "all"
+On branch master
+Your branch is ahead of 'origin/master' by 9 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git push -u origin master
+fatal: unable to access 'https://github.com/AfrozUIDev/github-codes.git/': Could not resolve host: github.com
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --all --graph    
+* commit fe04c60d6f567367d2330399d7265ad954baa50e (new-feature)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 22:41:42 2023 +0530
+|
+|     new feature
+|
+*   commit 7bb01cc3b9465ff1e36162a741ee48a138e4f664 (HEAD -> master)
+|\  Merge: 21697dd d192c44
+| | Author: AfrozUIDev <afrozmulla020@gmail.com>
+| | Date:   Tue Nov 14 22:39:23 2023 +0530
+| |
+| |     all
+| |
+| * commit d192c4446d1c0fae305d61f3bbba45a1841980af (feature1)
+| | Author: AfrozUIDev <afrozmulla020@gmail.com>
+| | Date:   Tue Nov 14 21:40:30 2023 +0530
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git checkout new-feature
+Switched to branch 'new-feature'
+M       github-cheets.txt
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git push origin new-feature
+Enumerating objects: 34, done.
+Counting objects: 100% (34/34), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (24/24), done.
+Writing objects: 100% (31/31), 3.10 KiB | 352.00 KiB/s, done.
+Total 31 (delta 6), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (6/6), completed with 1 local object.
+remote:
+remote: Create a pull request for 'new-feature' on GitHub by visiting:
+remote:      https://github.com/AfrozUIDev/github-codes/pull/new/new-feature
+remote:
+To https://github.com/AfrozUIDev/github-codes.git
+ * [new branch]      new-feature -> new-feature
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --all --graph      
+* commit fe04c60d6f567367d2330399d7265ad954baa50e (HEAD -> new-feature, origin/new-feature)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 22:41:42 2023 +0530
+|
+|     new feature
+|
+*   commit 7bb01cc3b9465ff1e36162a741ee48a138e4f664 (master)
+|\  Merge: 21697dd d192c44
+| | Author: AfrozUIDev <afrozmulla020@gmail.com>
+| | Date:   Tue Nov 14 22:39:23 2023 +0530
+| |
+| |     all
+| |
+| * commit d192c4446d1c0fae305d61f3bbba45a1841980af (feature1)
+| | Author: AfrozUIDev <afrozmulla020@gmail.com>
+| | Date:   Tue Nov 14 21:40:30 2023 +0530
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git checkout feature1
+error: Your local changes to the following files would be overwritten by checkout:
+        github-cheets.txt
+Please commit your changes or stash them before you switch branches.
+Aborting
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --all --graph
+* commit fe04c60d6f567367d2330399d7265ad954baa50e (HEAD -> new-feature, origin/new-feature)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 22:41:42 2023 +0530
+|
+|     new feature
+|
+*   commit 7bb01cc3b9465ff1e36162a741ee48a138e4f664 (master)
+|\  Merge: 21697dd d192c44
+| | Author: AfrozUIDev <afrozmulla020@gmail.com>
+| | Date:   Tue Nov 14 22:39:23 2023 +0530
+| |
+| |     all
+| |
+| * commit d192c4446d1c0fae305d61f3bbba45a1841980af (feature1)
+| | Author: AfrozUIDev <afrozmulla020@gmail.com>
+| | Date:   Tue Nov 14 21:40:30 2023 +0530
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git add .
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git commit -m "new-feature branch uploaded"
+[new-feature 5ba6877] new-feature branch uploaded
+ 1 file changed, 3 insertions(+)
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git checkout feature1
+Switched to branch 'feature1'
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --all --graph
+* commit 5ba68776b320d03cc6240bd35c828b14716e02a4 (new-feature)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Wed Nov 15 13:04:19 2023 +0530
+|
+|     new-feature branch uploaded
+|
+* commit fe04c60d6f567367d2330399d7265ad954baa50e (origin/new-feature)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 22:41:42 2023 +0530
+|
+|     new feature
+|
+*   commit 7bb01cc3b9465ff1e36162a741ee48a138e4f664 (master)
+|\  Merge: 21697dd d192c44
+| | Author: AfrozUIDev <afrozmulla020@gmail.com>
+| | Date:   Tue Nov 14 22:39:23 2023 +0530
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git add .
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git commit -m "feature1 uploaded"
+On branch feature1
+nothing to commit, working tree clean
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git checkout feature1
+Already on 'feature1'
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git push origin feature1
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'feature1' on GitHub by visiting:
+remote:      https://github.com/AfrozUIDev/github-codes/pull/new/feature1
+remote:
+To https://github.com/AfrozUIDev/github-codes.git
+ * [new branch]      feature1 -> feature1
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 9 commits.
+  (use "git push" to publish your local commits)
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git add .
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git commit -m "master branch uploaded"
+On branch master
+Your branch is ahead of 'origin/master' by 9 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git push origin master
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/AfrozUIDev/github-codes.git
+   0f343e4..7bb01cc  master -> master
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --all --graph
+* commit 5ba68776b320d03cc6240bd35c828b14716e02a4 (new-feature)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Wed Nov 15 13:04:19 2023 +0530
+|
+|     new-feature branch uploaded
+|
+* commit fe04c60d6f567367d2330399d7265ad954baa50e (origin/new-feature)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 22:41:42 2023 +0530
+|
+|     new feature
+|
+*   commit 7bb01cc3b9465ff1e36162a741ee48a138e4f664 (HEAD -> master, origin/master)
+|\  Merge: 21697dd d192c44
+| | Author: AfrozUIDev <afrozmulla020@gmail.com>
+| | Date:   Tue Nov 14 22:39:23 2023 +0530
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git branch -D feature1
+Deleted branch feature1 (was d192c44).
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git branch feature1
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --all --graph
+* commit 5ba68776b320d03cc6240bd35c828b14716e02a4 (new-feature)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Wed Nov 15 13:04:19 2023 +0530
+|
+|     new-feature branch uploaded
+|
+* commit fe04c60d6f567367d2330399d7265ad954baa50e (origin/new-feature)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Tue Nov 14 22:41:42 2023 +0530
+|
+|     new feature
+|
+*   commit 7bb01cc3b9465ff1e36162a741ee48a138e4f664 (HEAD -> master, origin/master, feature1)
+|\  Merge: 21697dd d192c44
+| | Author: AfrozUIDev <afrozmulla020@gmail.com>
+| | Date:   Tue Nov 14 22:39:23 2023 +0530
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git chekout feature1
+git: 'chekout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git checkout feature1
+Switched to branch 'feature1'
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git add .
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git commit -m "feature1"
+[feature1 eb59732] feature1
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --all --graph
+* commit eb59732ce2b22df3030e5b8c892d10c428d47eaf (HEAD -> feature1)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Wed Nov 15 13:13:31 2023 +0530
+|
+|     feature1
+|
+| * commit 5ba68776b320d03cc6240bd35c828b14716e02a4 (new-feature)
+| | Author: AfrozUIDev <afrozmulla020@gmail.com>
+| | Date:   Wed Nov 15 13:04:19 2023 +0530
+| |
+| |     new-feature branch uploaded
+| |
+| * commit fe04c60d6f567367d2330399d7265ad954baa50e (origin/new-feature)
+|/  Author: AfrozUIDev <afrozmulla020@gmail.com>
+|   Date:   Tue Nov 14 22:41:42 2023 +0530
+|
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git branch feature2
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --all --graph
+* commit eb59732ce2b22df3030e5b8c892d10c428d47eaf (feature1)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Wed Nov 15 13:13:31 2023 +0530
+|
+|     feature1
+|
+| * commit 5ba68776b320d03cc6240bd35c828b14716e02a4 (new-feature)
+| | Author: AfrozUIDev <afrozmulla020@gmail.com>
+| | Date:   Wed Nov 15 13:04:19 2023 +0530
+| |
+| |     new-feature branch uploaded
+| |
+| * commit fe04c60d6f567367d2330399d7265ad954baa50e (origin/new-feature)
+|/  Author: AfrozUIDev <afrozmulla020@gmail.com>
+|   Date:   Tue Nov 14 22:41:42 2023 +0530
+|
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git checkout master  
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git checkout feature2
+Switched to branch 'feature2'
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git add .
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git commit -m "feature2"
+[feature2 5cec423] feature2
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --all --graph
+* commit 5cec4234abaae582708498d6156714af27a6235e (HEAD -> feature2)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Wed Nov 15 13:15:36 2023 +0530
+|
+|     feature2
+|
+| * commit eb59732ce2b22df3030e5b8c892d10c428d47eaf (feature1)
+|/  Author: AfrozUIDev <afrozmulla020@gmail.com>
+|   Date:   Wed Nov 15 13:13:31 2023 +0530
+|
+|       feature1
+|
+| * commit 5ba68776b320d03cc6240bd35c828b14716e02a4 (new-feature)
+| | Author: AfrozUIDev <afrozmulla020@gmail.com>
+| | Date:   Wed Nov 15 13:04:19 2023 +0530
+| |
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git push origin feature2
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 355 bytes | 355.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'feature2' on GitHub by visiting:
+remote:      https://github.com/AfrozUIDev/github-codes/pull/new/feature2
+remote:
+To https://github.com/AfrozUIDev/github-codes.git
+ * [new branch]      feature2 -> feature2
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git push origin feature1
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 354 bytes | 354.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/AfrozUIDev/github-codes.git
+   d192c44..eb59732  feature1 -> feature1
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git add .
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git commit -m "Node.js course link attached"
+[master 2f26d9f] Node.js course link attached
+ 1 file changed, 5 insertions(+)
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git push origin master
+To https://github.com/AfrozUIDev/github-codes.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/AfrozUIDev/github-codes.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git log --all --graph   
+* commit 2f26d9f07f626fa52a188038a73b36e564356fea (HEAD -> master)
+| Author: AfrozUIDev <afrozmulla020@gmail.com>
+| Date:   Wed Nov 15 13:27:14 2023 +0530
+|
+|     Node.js course link attached
+|
+| * commit 5cec4234abaae582708498d6156714af27a6235e (origin/feature2, feature2)
+|/  Author: AfrozUIDev <afrozmulla020@gmail.com>
+|   Date:   Wed Nov 15 13:15:36 2023 +0530
+|
+|       feature2
+|
+| * commit eb59732ce2b22df3030e5b8c892d10c428d47eaf (origin/feature1, feature1)
+|/  Author: AfrozUIDev <afrozmulla020@gmail.com>
+|   Date:   Wed Nov 15 13:13:31 2023 +0530
+|
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git pull origin master
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 1.78 KiB | 182.00 KiB/s, done.
+From https://github.com/AfrozUIDev/github-codes
+ * branch            master     -> FETCH_HEAD
+   7bb01cc..9796633  master     -> origin/master
+Merge made by the 'ort' strategy.
+ feature | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git checkout master
+Already on 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git add .
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git commit -m "Node.js course link attached"
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git push origin master
+Enumerating objects: 9, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 889 bytes | 889.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/AfrozUIDev/github-codes.git
+   9796633..e7c3b94  master -> master
+PS C:\Users\AFROZ\OneDrive\Desktop\Github-codes> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
